@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Header */
+header {
+    background-color: #17072b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: Tahoma;
+    font-weight: 700;
+}
+
+/* nav */
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Main layout */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+/* welcome section */
+.welcome {
+    flex: 2;
+}
+
+/* sidebar */
+aside {
+    flex: 1;
+    background-color: #172d67;
+    color: white;
+    padding: 15px;
+}
+
+/* Images */
+aside img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
