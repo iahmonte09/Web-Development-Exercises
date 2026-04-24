@@ -1,1 +1,42 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
 
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: darkred;
+}
+
+.button {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: darkblue;
+}
+
+/* Extra class example */
+.highlight {
+    font-weight: bold;
+}
