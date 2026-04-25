@@ -1,0 +1,52 @@
+/* Page styling */
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container box */
+.container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+/* Focus effect */
+input:focus {
+    outline: none;
+    border: 2px solid blue;
+}
+
+/* Button */
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: darkblue;
+}
+
+/* Result text */
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}

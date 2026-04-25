@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main container -->
+    <div class="container">
+
+        <h1>Petrol Calculator</h1>
+
+        <!-- Petrol cost input -->
+        <label>Cost per litre (SAR):</label>
+        <input type="number" id="cost" value="2.33">
+
+        <!-- Litres input -->
+        <label>Litres purchased:</label>
+        <input type="number" id="litres" value="0">
+
+        <!-- Button -->
+        <button onclick="calculateTotal()">Calculate</button>
+
+        <!-- Result -->
+        <p id="result">Total: SAR 0.00</p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
